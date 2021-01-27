@@ -1,3 +1,2 @@
 # js_ui_wdio
-# initial message
-# add new commit
+# add settings for vs code
