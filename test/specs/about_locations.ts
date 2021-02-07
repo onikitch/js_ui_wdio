@@ -3,7 +3,7 @@ describe('Verify Locations', function() {
         browser.url('/contact/locations')
         
         const industrySelect = $('select[id="locations-industries"]')
-        industrySelect.selectByVisibleText('Diagnostics')
+        industrySelect.selectByVisibleText('Telecommunications')
         
         const capabilitySelect = $('select[id="locations-capabilities"]')
         capabilitySelect.selectByVisibleText('Electrical Design Engineering')
@@ -13,6 +13,8 @@ describe('Verify Locations', function() {
 
         const regionSelect = $('select[id="locations-regions"]')
         regionSelect.selectByVisibleText('Asia')
+
+        browser.pause(10000)
 
     });
 });
